@@ -211,6 +211,9 @@ nav img {
   border: 5px solid rgb(255, 136, 0);
   border-radius: 5%;
 }
+.articles h3 {
+    color:rgb(255, 136, 0) ;
+}
 .right {
   flex-basis: 70%;
   display: flex;

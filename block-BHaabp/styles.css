@@ -1,0 +1,433 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* general styling -----------------------------------------------------------------------------------------*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  line-height: 1.8;
+}
+
+h1 {
+  font-size: 46px;
+}
+
+h2 {
+  font-size: 32px;
+}
+h3 {
+  font-size: 26px;
+}
+h4 {
+  font-size: 18px;
+}
+p {
+  font-size: 16px;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+/* styling header------------------------------------------------------------------------------------------*/
+
+header {
+  background-image: linear-gradient(to right, #564a77, #7a3f79);
+}
+
+.header {
+  justify-content: space-between;
+  padding: 2% 0;
+}
+
+.header a {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+ 
+}
+.nav{
+    align-items: center;
+}
+.nav a{
+  margin-left: 30px;
+  color: #5EBD8B;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 18px;
+  
+  font-weight: bold;
+ 
+}
+
+.hero {
+  justify-content: space-between;
+  padding: 10% 0 6% 0;
+}
+.hero .left-section{
+    border-right: 2px solid #7a7474;
+}
+.left-section {
+  flex-basis: 48%;
+  padding: 2% 3% 2% 0;
+  border-right: 2px solid #d8d4d4;
+}
+.left-section h1{
+    font-weight: bold;
+    color: white;
+}
+
+
+
+.right-section {
+  flex-basis: 48%;
+  padding: 2% 0 2% 3%;
+}
+
+.get-started-btn{
+    padding: 3% 0;
+    display:inline-block;
+    width: 40%;
+    font-size: 18px;
+    background-color: #5EBD8B;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    border-radius: 30px;
+}
+.right-section h3{
+    font-weight: bold;
+    font-size: 22px;
+    color: rgb(182, 176, 176);
+    padding: 2% 0;
+    padding-bottom: 10%;
+}
+
+/* styling features -------------------------------------------------------------------------------------------*/
+
+.features {
+    justify-content: space-between;
+    padding: 6% 0 6% 0;
+  }
+
+
+  .features .left-section {
+      justify-content:space-between;
+      padding: 0;
+  }
+
+  .features .left-section h2{
+   font-size:30px;
+   font-weight: bold;
+   color: rgb(88, 88, 88);
+  }
+
+  .features .left-section h3{
+    color: rgb(122, 122, 122);
+    font-size: 18px;
+    font-weight: bold;
+    padding: 6% 0;
+    line-height: 1.8;
+  }
+  .features .right-section{
+      justify-content: space-between;
+      padding-left: 3%;
+      
+      
+  }
+
+  .features .right-section h3{
+      color: rgb(122, 122, 122);
+      font-size: 18px;
+      padding:0 0 0 1%;
+  }
+
+
+  .learn-more-btn{
+    padding: 3% 0;
+    display:inline-block;
+    width: 40%;
+    font-size: 18px;
+    background-color:white;
+    text-transform: uppercase;
+    color: rgb(97, 95, 95);
+    font-weight: bold;
+    border: 1px solid rgb(117, 116, 116);
+    border-radius: 30px;
+  }
+
+  .fa-check{
+      margin-right: 10px;
+      color: #5EBD8B;
+  }
+
+
+  /* styling gallery ----------------------------------------------------------------------------- */
+
+  .gallery{
+      background-color: #FAFAFA;
+      padding: 5% 0;
+  }
+  .gallery-items{
+      padding: 2% 0;
+  }
+
+  .gallery-image{
+      padding: 0; 
+      border-right: 0;
+      flex-basis: 35%;
+  }
+  .gallery-image img{
+      padding: 0;
+      margin: 0;
+     height: 100%;
+     width: 100%;
+      
+      
+  }
+
+  .gallery-image-detail{
+      justify-content: center;
+      flex-basis: 65%;
+      background-color: white;
+   
+      
+  }
+ .center-btn{
+     text-align: center;
+ }
+  .gallery-btn{
+    
+    padding:15px 0 ;
+    display:inline-block;
+    width: 20%;
+    font-size: 16px;
+    background-color:white;
+    text-transform: uppercase;
+    color: rgb(97, 95, 95);
+    font-weight: bold;
+    border: 1px solid rgb(117, 116, 116);
+    border-radius: 30px;
+    margin-bottom: 40px;
+  }
+  .details{
+      width: 20%;
+      padding:2% 0;
+  }
+
+  /* styling contact section ---------------------------------------------------------------------------*/
+
+  .send-message{
+      padding: 2% 0;
+      margin: 4% 0;
+      border: 2px solid lightgrey;
+  }
+  .contact .fa{
+      color: rgb(12, 170, 12);
+      margin-right: 20px;
+      flex-basis: 5%;
+   
+  }
+  .contact .left-section{
+      padding: 2% 4% 2% 0;
+  }
+  .input-container{
+      justify-content: space-between;
+     padding-bottom: 3%;
+  
+  }
+  input{
+      width: 45%;
+      font-size: 20px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      padding: 2% 0 2% 5%;
+      border: 1px solid lightgrey;
+     
+  }
+  textarea{
+    border: 1px solid lightgrey;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 3% 0 2% 5%;
+    
+  }
+
+  .contact .right-section{
+    justify-content: start ;
+    padding:2% 0;
+    flex-basis: 48%;
+   
+  }
+  .contact .right-section h3{
+      padding: 2% 0;
+      
+     flex-basis:80%;
+      font-weight: normal;
+  }
+  .fa-home{
+      padding-bottom: 15px;
+  }
+
+  .contact-items{
+      align-items: center;
+  }
+
+
+
+  /* styling footer ---------------------------------------------------------------------------------- */
+
+  footer{
+      background-color: #FAFAFA;
+      color:rgb(189, 187, 187);
+      padding: 3% 0;
+  }
+
+  .footer{
+      justify-content: center;
+      align-items: center;
+  }
+  .fa-copyright{
+      margin-right: 5px;
+  }

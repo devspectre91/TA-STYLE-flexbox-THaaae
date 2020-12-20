@@ -6,3 +6,175 @@
 - Using CSS resets is necessary.
 - Use semantic tags and keep the nesting and indentation proper. 
 -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment-3 | Flexbox</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://use.fontawesome.com/41be6dfa6e.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="container header flex-row">
+        <a href="">Prism</a>
+        <nav class="nav flex-row">
+          <a href="">Home</a><a href="">About</a><a href="">Generic</a
+          ><a href="">Elements</a>
+        </nav>
+      </div>
+      <article class="hero container flex-row">
+        <section class="left-section">
+          <h1>
+            Welcome to Prism, a free responsive site template by TEMPLATED
+          </h1>
+        </section>
+        <section class="right-section flex-column">
+          <h3>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat
+            saepe facilis molestias magnam! dolor sit amet adipisicing elit
+          </h3>
+          <button class="get-started-btn">Get Started</button>
+        </section>
+      </article>
+    </header>
+
+    <main>
+      <article class="features container flex-row">
+        <section class="left-section flex-column">
+          <h2>Magna feudias adipicing</h2>
+          <h3>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque
+            laudantium facilis expedita ullam maxime porro, ipsa et, quia aut
+            voluptate nemo recusandae laborum illum consequuntur id nihil
+            blanditiis, animi quidem?
+          </h3>
+          <button class="learn-more-btn">Learn More</button>
+        </section>
+        <section class="right-section flex-column">
+          <h3>
+            <i class="fa fa-check" aria-hidden="true"></i> Lorem ipsum, dolor
+            sit amet magna
+          </h3>
+          <h3>
+            <i class="fa fa-check" aria-hidden="true"></i> Lorem ipsum, dolor
+            sit amet magna
+          </h3>
+          <h3>
+            <i class="fa fa-check" aria-hidden="true"></i> Lorem ipsum, dolor
+            sit amet magna
+          </h3>
+          <h3>
+            <i class="fa fa-check" aria-hidden="true"></i> Lorem ipsum, dolor
+            sit amet magna
+          </h3>
+          <h3>
+            <i class="fa fa-check" aria-hidden="true"></i> Lorem ipsum, dolor
+            sit amet magna
+          </h3>
+        </section>
+      </article>
+
+      <article class="gallery">
+        <div class="gallery-items container flex-row">
+          <section class="gallery-image left-section">
+            <img src="assets/pic01.jpg" alt="pic01" />
+          </section>
+          <section class="gallery-image-detail right-section flex-column">
+            <h2>Ipsum phartera tempus</h2>
+            <h3>
+              Lorem ipsum quasi sint provident dolores laborum at veritatis
+              obcaecati earum, harum, quos in tempore vero.
+            </h3>
+            <button class="learn-more-btn details">Details</button>
+          </section>
+        </div>
+        <div class="gallery-items container flex-row">
+          <section class="gallery-image left-section">
+            <img src="assets/pic02.jpg" alt="pic01" />
+          </section>
+          <section class="gallery-image-detail right-section flex-column">
+            <h2>Ipsum phartera tempus</h2>
+            <h3>
+              Lorem ipsum quasi sint provident dolores laborum at veritatis
+              obcaecati earum, harum, quos in tempore vero.
+            </h3>
+            <button class="learn-more-btn details">Details</button>
+          </section>
+        </div>
+        <div class="gallery-items container flex-row">
+          <section class="gallery-image left-section">
+            <img src="assets/pic03.jpg" alt="pic01" />
+          </section>
+          <section class="gallery-image-detail right-section flex-column">
+            <h2>Ipsum phartera tempus</h2>
+            <h3>
+              Lorem ipsum quasi sint provident dolores laborum at veritatis
+              obcaecati earum, harum, quos in tempore vero.
+            </h3>
+            <button class="learn-more-btn details">Details</button>
+          </section>
+        </div>
+        <div class="center-btn">
+          <button class="gallery-btn">Ipsum Magna Tempus</button>
+        </div>
+      </article>
+
+      <article class="contact features container flex-row">
+        <section class="left-section flex-column">
+          <h2>Orci malesuada</h2>
+          <h3>
+            Morbi pharetra vitae felis Placeat pharetra . Nulla risu orci ,
+            dapibus id malesuada etc nec, malesuada quis pellentesque eget.
+          </h3>
+          <div class="flex-column">
+            <div class="flex-row input-container">
+              <input type="text" placeholder="Name" />
+              <input type="text" placeholder="Email" />
+            </div>
+
+            <textarea
+              name="message"
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Message"
+            ></textarea>
+          </div>
+          <button class="learn-more-btn send-message">Send Message</button>
+        </section>
+        <section class="right-section flex-column">
+          <div class="contact-items flex-row">
+            <i class="fa fa-twitter fa-lg" aria-hidden="true"></i>
+            <h3>twitter.com/untitled</h3>
+          </div>
+          <div class="contact-items flex-row">
+            <i class="fa fa-facebook fa-lg" aria-hidden="true"></i>
+            <h3>facebook.co/untitled</h3>
+          </div>
+          <div class="contact-items flex-row">
+            <i class="fa fa-instagram fa-lg" aria-hidden="true"></i>
+            <h3>instagram.com.untitled</h3>
+          </div>
+          <div class="contact-items flex-row">
+            <i class="fa fa-envelope fa-lg" aria-hidden="true"></i>
+            <h3>information@untitled.com</h3>
+          </div>
+          <div class="contact-items flex-row">
+            <i class="fa fa-home fa-lg" aria-hidden="true"></i>
+            <h3>
+              1234, 10 Something Street Road Suite 9823, Nashvile, Tn 0000-00000
+            </h3>
+          </div>
+        </section>
+      </article>
+    </main>
+    <footer class="footer flex-row">
+      <i class="fa fa-copyright fa-lg" aria-hidden="true"></i>
+      <p>Untitled. All rights reserved. Images: Unsplash. Design:TEMPLATED</p>
+    </footer>
+  </body>
+</html>
